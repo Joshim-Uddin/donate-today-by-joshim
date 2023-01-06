@@ -111,8 +111,29 @@ section{
     flex-direction: column;
     text-align: center;
 }
+.donate-plan .sec-desc{
+    font-size: 1.2rem;
+    padding: 1rem 12rem;
+}
 .donation-card{
     display: flex;
     text-align: left;
     gap: 1rem;
+    margin: 1rem 7rem 0;
+}
+
+.cards{
+    padding: 1.5rem 0.8rem;
+}
+.cards-1{
+    background-color: var(--color1);
+}
+.cards-2{
+    background-color: var(--color2);
+}
+.cards-3{
+    background-color: var(--color3);
+}
+.card-image, .card-title, .card-desc{
+    margin-bottom: 1.2rem;
 }
