@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* font-family: 'Courgette', cursive;
+/* 
  */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -136,4 +136,90 @@ section{
 }
 .card-image, .card-title, .card-desc{
     margin-bottom: 1.2rem;
+}
+/* contribution styles */
+.contribution{
+    margin: 5rem 12rem;
+}
+.contribute-one{
+    display: grid;
+    grid-template-columns: 1.3fr 1.7fr;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 7rem 0;
+    padding: 1.5rem 0;
+}
+.contribute-two{
+    display: grid;
+    grid-template-columns: 1.7fr 1.3fr;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 7rem 0;
+    padding: 1.5rem 0;
+}
+.con-desc{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+.contribute-title{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.con-image img{
+    height: 370px;
+    width: 360px;
+}
+/* newsletter styles */
+.newsletter{
+    margin: 5rem 20rem;
+    text-align: center;
+}
+.news-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.news-desc{
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    padding: 0 4rem;
+}
+.subscribe{
+    background-color: var(--color4);
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe input{
+    padding: 1rem;
+    margin-right: 0;
+    background-color: #d1cece;
+    font-size: 1.2rem;
+    border: 0;
+    border-radius: 5px 0  0 5px;
+}
+.btn-subscribe{
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+}
+footer{
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+footer h2{
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    color: #DC3535;
+    padding-top: 1.5rem;
+}
+footer p{
+    padding-bottom: 1.5rem;
 }
