@@ -49,3 +49,70 @@ body{
     text-align: center;
     line-height: 1.5;
 }
+/* section-today styles */
+section{
+    color: #000;
+}
+.sec-title{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+.sec-desc{
+    font-size: 1.2rem;
+    padding: 1rem 7rem;
+}
+.donate-today{
+    margin: 5rem 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.donation-amount{
+    margin: 1rem 0;
+}
+.btn-tk{
+    padding: 2rem 2.2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: #272727;
+}
+.btn-tk:hover{
+    background-color: #f19e9ec2;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+.custom-amount{
+    border-bottom: 1px solid #757575;
+    width: 75%;
+    margin: 1rem 0;
+    
+    
+}
+.custom-amount input{
+    padding: 1rem;
+    border: none;
+    font-size: 1.2rem;
+}
+.custom-amount input:focus{
+    outline: none;
+}
+/* Donate-plan styles */
+.donate-plan{
+    margin: 5rem 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.donation-card{
+    display: flex;
+    text-align: left;
+    gap: 1rem;
+}
